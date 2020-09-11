@@ -92,7 +92,7 @@ import {
             </div>
             <div className="SecondForm">
             <h2>Second Player</h2>
-                    <label>First Name</label>
+                    <label>FirstName</label>
                     <input type="text" placeholder="Enter First Name" value={this.state.sfirstname} name="sfirstname" onChange={this.changesFirstName} required />
                     <label>Last Name</label>
                     <input type="text" placeholder="Enter Last Name" value={this.state.slastname} name="slastname" onChange={this.changesLastName} required />
