@@ -1,0 +1,78 @@
+.Form{
+    width: 80%;
+margin: 0 auto;
+margin-left: 301px;
+}
+.FirstForm, .SecondForm{
+
+    border: 2px solid #f1f1f1;
+    padding: 16px;
+    background-color: white;
+    width: 30%;
+margin: 0 auto}
+input{
+  width: 94%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;}
+button[type=submit] {
+    background-color: #434140;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 20px;
+margin-top: 100px;}
+label{
+  font-size: 18px;;}
+button[type=submit]:hover {
+  background-color:#3d3c3c;}
+  .FirstForm{
+      float: left;
+  }
+
+  .tic {
+    width: 38%;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #e9e8e8;
+}
+
+#resultText {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#newGame {
+    display: none;
+
+}
+
+.selection {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.selection button {
+    display: block;
+    width: 100px;
+    height: 41px;
+    border-radius: 5px;
+    margin: 0 auto;
+}

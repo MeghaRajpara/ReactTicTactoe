@@ -1,0 +1,50 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 80px;
+    line-height: 80px;
+    height: 80px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #a9afb3;
+    margin: 10px;
+   
+   }
+   
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+   }
+ 
+  .game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+   }
+   /* Game Info */
+  ul {
+    padding-left: 30px;
+   }
+   .game-info {
+    margin-left: 20px;
+    margin-top: 300px;
+font-size: 30px;
+color: green;
+   }
+   .status {
+    margin-bottom: 10px;
+   }
