@@ -83,7 +83,7 @@ import {
                 <div className="Form" id="Form">
                 <div className="FirstForm">
                 <h2>First Player</h2>
-                    <label>First Name</label>
+                    <label>FirstName</label>
                     <input type="text" placeholder="Enter First Name" value={this.state.firstname} name="firstname" onChange={this.changeFirstName} required />
                     <label>Last Name</label>
                     <input type="text" placeholder="Enter Last Name" value={this.state.lastname} name="lastname" onChange={this.changeLastName} required />
